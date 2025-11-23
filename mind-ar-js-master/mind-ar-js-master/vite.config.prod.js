@@ -19,7 +19,7 @@ const moduleConfig= defineConfig({
             formats:["es"],
         },
         rollupOptions:{
-            external:(id)=>(id==='three'||id.includes('three/examples/jsm/')||id.includes('three/addons/')),
+            external:(id)=>(id==='three'||id.includes('three/examples/jsm/')||id.includes('three/addons/')||id==='react'||id==='react-dom'||id==='react-dom/client'||id.startsWith('react/')||id.startsWith('react-dom/')),
             input:{
                 'mindar-image': './src/image-target/index.js',
                 'mindar-image-three': './src/image-target/three.js',
@@ -46,6 +46,14 @@ const faceAframeConfig=defineConfig({
             formats:['iife']
         },
         rollupOptions:{
+            external:(id)=>(id==='react'||id==='react-dom'||id==='react-dom/client'||id.startsWith('react/')||id.startsWith('react-dom/')),
+            output:{
+                globals:{
+                    'react':'React',
+                    'react-dom':'ReactDOM',
+                    'react-dom/client':'ReactDOM'
+                }
+            },
             input:{
                 'mindar-face-aframe': './src/face-target/aframe.js',
             },
@@ -67,6 +75,14 @@ const imageAframeConfig=defineConfig({
 
         },
         rollupOptions:{
+            external:(id)=>(id==='react'||id==='react-dom'||id==='react-dom/client'||id.startsWith('react/')||id.startsWith('react-dom/')),
+            output:{
+                globals:{
+                    'react':'React',
+                    'react-dom':'ReactDOM',
+                    'react-dom/client':'ReactDOM'
+                }
+            },
             input:{
                 'mindar-image-aframe': './src/image-target/aframe.js'
             }
