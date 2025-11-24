@@ -44,7 +44,8 @@
           <img id="pb_90" src="./assets/class-ar/pb_90.svg" />
           <img id="pb_100" src="./assets/class-ar/pb_100.svg" />
           <video id="subway_surfers" src="./assets/class-ar/subway_surfers.mp4" autoplay loop playsinline muted></video></video>
-          <a-asset-item id="car" src="./assets/class-ar/flying_car/scene.gltf"></a-asset-item>
+          <a-asset-item id="mario_kart" src="./assets/class-ar/mario_kart/scene.gltf"></a-asset-item>
+          <a-asset-item id="car_interior" src="./assets/class-ar/car_interior/scene.gltf"></a-asset-item>
         </a-assets>
 
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
@@ -52,65 +53,60 @@
         <a-entity mindar-image-target="targetIndex: 0">
           <!-- <a-plane src="#alert" position="0.25 0.4 0" height="0.2944" width="0.5" rotation="0 0 0"></a-plane> -->
           <!-- <a-plane src="#subway_surfers" position="-0.2 0 0" height="0.3557" width="0.2" rotation="0 0 0"></a-plane> -->
-          <a-plane src="#pb_0" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
+          <a-plane src="#pb_10" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
         </a-entity>
 
         <a-entity mindar-image-target="targetIndex: 1">
           <!-- <a-plane src="#alert" position="0.25 0.4 0" height="0.2944" width="0.5" rotation="0 0 0"></a-plane> -->
           <!-- <a-plane src="#subway_surfers" position="-0.2 0 0" height="0.3557" width="0.2" rotation="0 0 0"></a-plane> -->
-          <a-plane src="#pb_10" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
+          <a-plane src="#pb_20" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
         </a-entity>
 
         <a-entity mindar-image-target="targetIndex: 2">
           <a-plane src="#alert" position="0.25 0.4 0" height="0.1472" width="0.5" rotation="0 0 0"></a-plane>
           <!-- <a-plane src="#subway_surfers" position="-0.2 0 0" height="0.3557" width="0.2" rotation="0 0 0"></a-plane> -->
-          <a-plane src="#pb_20" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
+          <a-plane src="#pb_30" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
         </a-entity>
 
         <a-entity mindar-image-target="targetIndex: 3">
           <!-- <a-plane src="#alert" position="0.25 0.4 0" height="0.2944" width="0.5" rotation="0 0 0"></a-plane> -->
-          <a-plane src="#subway_surfers" position="-0.6 0 0" height="0.3557" width="0.2" rotation="0 0 0"></a-plane>
-          <a-plane src="#pb_30" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
+          <!-- <a-plane src="#subway_surfers" position="-0.6 0 0" height="0.3557" width="0.2" rotation="0 0 0"></a-plane> -->
+          <a-plane src="#pb_40" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
         </a-entity>
 
         <a-entity mindar-image-target="targetIndex: 4">
-          <a-plane src="#alert" position="0.25 0.4 0" height="0.1472" width="0.5" rotation="0 0 0"></a-plane>
+          <!-- <a-plane src="#alert" position="0.25 0.4 0" height="0.1472" width="0.5" rotation="0 0 0"></a-plane> -->
           <!-- <a-plane src="#subway_surfers" position="-0.2 0 0" height="0.3557" width="0.2" rotation="0 0 0"></a-plane> -->
-          <a-plane src="#pb_40" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
-          <a-gltf-model src="#car" rotation="0 45 0" position="0 0 0" scale="0.0008 0.0008 0.0008" animation="property: position; to: 0 0.1 0.1; dur: 1000; easing: easeInOutQuad; loop: false; dir: alternate">
+          <a-plane src="#pb_50" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
         </a-entity>
 
         <a-entity mindar-image-target="targetIndex: 5">
           <!-- <a-plane src="#alert" position="0.25 0.4 0" height="0.2944" width="0.5" rotation="0 0 0"></a-plane> -->
-          <a-plane src="#subway_surfers" position="-0.6 0 0" height="0.3557" width="0.2" rotation="0 0 0"></a-plane>
-          <a-plane src="#pb_50" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
+          <!-- <a-plane src="#subway_surfers" position="-0.6 0 0" height="0.3557" width="0.2" rotation="0 0 0"></a-plane> -->
+          <a-plane src="#pb_60" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
+          <a-gltf-model src="#mario_kart" rotation="0 0 0" position="0.35 -0.35 0" scale="0.12 0.12 0.12" animation="property: rotation; to: 0 360 0; dur: 2000; easing: linear; loop: true;" visible="true"></a-gltf-model>
+          <!-- <a-gltf-model src="#car_interior" rotation="0 -90 0" position="0.08 -0.26 2.3" scale="0.08 0.08 0.08" visible="true"></a-gltf-model> -->
         </a-entity>
 
         <a-entity mindar-image-target="targetIndex: 6">
           <!-- <a-plane src="#alert" position="0.25 0.4 0" height="0.2944" width="0.5" rotation="0 0 0"></a-plane> -->
           <!-- <a-plane src="#subway_surfers" position="-0.2 0 0" height="0.3557" width="0.2" rotation="0 0 0"></a-plane> -->
-          <a-plane src="#pb_60" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
+          <a-plane src="#pb_70" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
         </a-entity>
 
         <a-entity mindar-image-target="targetIndex: 7">
           <!-- <a-plane src="#alert" position="0.25 0.4 0" height="0.2944" width="0.5" rotation="0 0 0"></a-plane> -->
           <!-- <a-plane src="#subway_surfers" position="-0.2 0 0" height="0.3557" width="0.2" rotation="0 0 0"></a-plane> -->
-          <a-plane src="#pb_70" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
+          <a-plane src="#pb_80" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
         </a-entity>
 
         <a-entity mindar-image-target="targetIndex: 8">
           <!-- <a-plane src="#alert" position="0.25 0.4 0" height="0.2944" width="0.5" rotation="0 0 0"></a-plane> -->
           <!-- <a-plane src="#subway_surfers" position="-0.2 0 0" height="0.3557" width="0.2" rotation="0 0 0"></a-plane> -->
-          <a-plane src="#pb_80" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
-        </a-entity>
-
-        <a-entity mindar-image-target="targetIndex: 9">
-          <!-- <a-plane src="#alert" position="0.25 0.4 0" height="0.2944" width="0.5" rotation="0 0 0"></a-plane> -->
-          <!-- <a-plane src="#subway_surfers" position="-0.2 0 0" height="0.3557" width="0.2" rotation="0 0 0"></a-plane> -->
           <a-plane src="#pb_90" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>
         </a-entity>
 
-        <a-entity mindar-image-target="targetIndex: 10">
+        <a-entity mindar-image-target="targetIndex: 9">
           <!-- <a-plane src="#alert" position="0.25 0.4 0" height="0.2944" width="0.5" rotation="0 0 0"></a-plane> -->
           <!-- <a-plane src="#subway_surfers" position="-0.2 0 0" height="0.3557" width="0.2" rotation="0 0 0"></a-plane> -->
           <a-plane src="#pb_100" position="0 -0.4 0" height="0.02647" width="0.8" rotation="0 0 0"></a-plane>

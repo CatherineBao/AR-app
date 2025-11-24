@@ -1,0 +1,361 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24245,
+      "max": [
+        182.6468963623047,
+        3.080997943878174,
+        222.01235961914063
+      ],
+      "min": [
+        -337.80535888671875,
+        -244.8093719482422,
+        -220.70419311523438
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 290940,
+      "componentType": 5126,
+      "count": 24245,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24245,
+      "max": [
+        0.9881319999694824,
+        0.9879890084266663
+      ],
+      "min": [
+        0.0029589999467134476,
+        0.0029589999467134476
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 55785,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 581880,
+      "componentType": 5126,
+      "count": 1370,
+      "max": [
+        -106.66439819335938,
+        -78.5367431640625,
+        -39.626075744628906
+      ],
+      "min": [
+        -154.25172424316406,
+        -175.963623046875,
+        -146.73593139648438
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 598320,
+      "componentType": 5126,
+      "count": 1370,
+      "max": [
+        0.9988709092140198,
+        0.9928644895553589,
+        0.9997159838676453
+      ],
+      "min": [
+        -0.770389974117279,
+        -0.9997867345809937,
+        -0.9997162222862244
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 193960,
+      "componentType": 5126,
+      "count": 1370,
+      "max": [
+        0.9869480133056641,
+        0.9874370098114014
+      ],
+      "min": [
+        0.0031349998898804188,
+        0.0031349998898804188
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 223140,
+      "componentType": 5125,
+      "count": 7077,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Gerhald (https://sketchfab.com/Gerhald)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/car-interior-c5f830a811af4917972de8fa47949de9",
+      "title": "Car interior"
+    },
+    "generator": "Sketchfab-16.75.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 251448,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 204920,
+      "byteOffset": 251448,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 614760,
+      "byteOffset": 456368,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1071128,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.26651984652910465,
+          0.2215670181606805,
+          0.20442086824294992,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8929713596497552
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "default_0",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.26635560480286247,
+          0.2232279573168085,
+          0.20507873639031693,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8929713596497552
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "XJ220_3_default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "weel_default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "c3ca287bfe384471b0bee1e10599f91e.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.9999999999999991,
+        4.3711387965113384e-08,
+        0.0,
+        0.0,
+        -4.3711387965113384e-08,
+        -0.9999999999999991,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "XJ220_3"
+    },
+    {
+      "mesh": 0,
+      "name": "XJ220_3_default_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        0.9063078005819204,
+        0.42261823269277204,
+        1.1971799894730995e-16,
+        0.0,
+        0.4226182326927716,
+        -0.9063078005819196,
+        4.371138885329181e-08,
+        0.0,
+        1.8473230014226077e-08,
+        -3.9615972641412966e-08,
+        -0.9999999999999991,
+        0.0,
+        -130.45806884765625,
+        127.25019073486328,
+        93.18099212646484,
+        1.0
+      ],
+      "name": "weel"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        0.9063078151741601,
+        0.4226182013996074,
+        3.694645960326271e-08,
+        0.0,
+        -0.4226182013996074,
+        0.9063078151741608,
+        -8.190831260364294e-09,
+        0.0,
+        -3.6946459456676255e-08,
+        -8.190831921573163e-09,
+        0.9999999999999993,
+        0.0,
+        64.45691680908203,
+        170.4617919921875,
+        93.1810073852539,
+        1.0
+      ],
+      "name": "Object_6"
+    },
+    {
+      "mesh": 1,
+      "name": "weel_default_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
