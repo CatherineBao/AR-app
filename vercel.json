@@ -1,4 +1,0 @@
-{
-  "buildCommand": "cd mind-ar-js-master/mind-ar-js-master && npm install && npm run build-dev",
-  "outputDirectory": "mind-ar-js-master/mind-ar-js-master/examples"
-}

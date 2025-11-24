@@ -4,5 +4,3 @@ tests
 dist-dev
 dist/
 *.DS_Store
-
-.vercel
